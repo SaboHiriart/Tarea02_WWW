@@ -1,9 +1,37 @@
-img {
-    width: 100%;
+.barra-negra {
+    background-color: #545454;
+    height: 10px;
 }
 
-.foto-perfil {
-    width: 20%;
-    height: auto;
+.icono {
     border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+}
+
+.icono svg {
+    margin: 5px;
+}
+
+.horizontal {
+    width: 50%;
+    height: 5px;
+    background-color: black;
+    opacity: 1;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.contenido {
+    margin-top: 10px;
+    text-align: justify;
+    padding-left: 23%;
+}
+
+.col div {
+    margin-bottom: 20px;
 }
